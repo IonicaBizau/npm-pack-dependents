@@ -4,7 +4,7 @@
 
  [![Support me on Patreon][badge_patreon]][patreon] [![Buy me a book][badge_amazon]][amazon] [![PayPal][badge_paypal_donate]][paypal-donations] [![Version](https://img.shields.io/npm/v/npm-pack-dependents.svg)](https://www.npmjs.com/package/npm-pack-dependents) [![Downloads](https://img.shields.io/npm/dt/npm-pack-dependents.svg)](https://www.npmjs.com/package/npm-pack-dependents)
 
-> Get the dependents of a npm package.
+> Get the dependents' names of a npm package.
 
 ## :cloud: Installation
 
@@ -51,16 +51,17 @@ There are few ways to get help:
 ## :memo: Documentation
 
 
-### `npmPackDependents(a, b)`
-Get the dependents of a npm package.
+### `npmPackDependents(name, cb)`
+Get the dependents of a npm package. This will resolve with an array of
+strings (the names of the dependents).
 
 #### Params
 
-- **Number** `a`: Param descrpition.
-- **Number** `b`: Param descrpition.
+- **String** `name`: The package name.
+- **Function** `cb`: The callback function.
 
 #### Return
-- **Number** Return description.
+- **Promise** A promise.
 
 
 

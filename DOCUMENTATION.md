@@ -2,14 +2,15 @@
 
 You can see below the API reference of this module.
 
-### `npmPackDependents(a, b)`
-Get the dependents of a npm package.
+### `npmPackDependents(name, cb)`
+Get the dependents of a npm package. This will resolve with an array of
+strings (the names of the dependents).
 
 #### Params
 
-- **Number** `a`: Param descrpition.
-- **Number** `b`: Param descrpition.
+- **String** `name`: The package name.
+- **Function** `cb`: The callback function.
 
 #### Return
-- **Number** Return description.
+- **Promise** A promise.
 
