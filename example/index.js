@@ -2,4 +2,18 @@
 
 const npmPackDependents = require("../lib");
 
-console.log(npmPackDependents());
+npmPackDependents("ul", (err, dependents) => {
+    console.log(err || dependents);
+    // =>
+    // [ '3abn',
+    //   ...
+    //   'wrabbit' ]
+})
+
+npmPackDependents("ul").then(dependents => {
+    console.log(dependents);
+    // =>
+    // [ '3abn',
+    //   ...
+    //   'wrabbit' ]
+})

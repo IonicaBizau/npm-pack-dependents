@@ -1,6 +1,6 @@
 {
   "name": "npm-pack-dependents",
-  "description": "Get the dependents of a npm package.",
+  "description": "Get the dependents' names of a npm package.",
   "keywords": [
     "npm",
     "pack",
@@ -17,5 +17,28 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Ionică Bizău"
+  "author": "Ionică Bizău <bizauionica@gmail.com> (https://ionicabizau.net)",
+  "dependencies": {
+    "jsonrequest": "^4.2.1"
+  },
+  "homepage": "https://github.com/IonicaBizau/npm-pack-dependents#readme",
+  "files": [
+    "bin/",
+    "app/",
+    "lib/",
+    "dist/",
+    "src/",
+    "scripts/",
+    "resources/",
+    "menu/",
+    "cli.js",
+    "index.js"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/IonicaBizau/npm-pack-dependents.git"
+  },
+  "bugs": {
+    "url": "https://github.com/IonicaBizau/npm-pack-dependents/issues"
+  }
 }
