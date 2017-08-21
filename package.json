@@ -1,0 +1,21 @@
+{
+  "name": "npm-pack-dependents",
+  "description": "Get the dependents of a npm package.",
+  "keywords": [
+    "npm",
+    "pack",
+    "dependents",
+    "get",
+    "the",
+    "of",
+    "a",
+    "package"
+  ],
+  "license": "MIT",
+  "version": "1.0.0",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ionică Bizău"
+}
