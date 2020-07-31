@@ -1,11 +1,11 @@
 "use strict";
 
-const npmPackDependents = require("../lib");
+var npmPackDependents = require("../lib");
 
-npmPackDependents("ul").then(dependents => {
+npmPackDependents("ul").then(function (dependents) {
     console.log(dependents);
     // =>
     // [ '3abn',
     //   ...
     //   'wrabbit' ]
-}).catch(console.error)
+}).catch(console.error);
