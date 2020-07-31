@@ -19,7 +19,7 @@
   },
   "author": "Ionică Bizău <bizauionica@gmail.com> (https://ionicabizau.net)",
   "dependencies": {
-    "jsonrequest": "^4.2.1"
+    "npm-dependants": "^2.1.2"
   },
   "homepage": "https://github.com/IonicaBizau/npm-pack-dependents#readme",
   "files": [
